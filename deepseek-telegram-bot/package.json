@@ -1,0 +1,29 @@
+{
+  "name": "deepseek-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for interacting with DeepSeek AI.",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "ts-node": "^10.4.0",
+    "@types/node": "^16.7.10",
+    "@types/node-telegram-bot-api": "^0.49.0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "deepseek",
+    "ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
